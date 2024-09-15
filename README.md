@@ -19,9 +19,3 @@ This project implements a simple parser for the OUCH protocol, which is commonly
 1. Compile the project using any C++ compiler:
    ```bash```
    g++ -o ouch_parser ouch_parser.cpp
-
-   char message_buffer[] = {
-    'O', 'T', 'O', 'K', 'E', 'N', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
-    'B', 0x00, 0x00, 0x03, 0xE8, 'S', 'T', 'O', 'C', 'K', 'A', ' ', ' ',
-    0x00, 0x00, 0x0F, 0xA0, 'D', 'A', 'Y', ' ', 'F', 'I', 'R', 'M', 'Y', 'A', 'N'
-};
